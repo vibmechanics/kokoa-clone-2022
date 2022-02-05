@@ -26,13 +26,13 @@
     border: none;
     padding: 30px 0px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
     margin-bottom: 25px;
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
     transition: border-color 0.3s ease-in-out;
 }
 
